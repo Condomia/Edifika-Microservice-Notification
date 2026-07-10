@@ -32,8 +32,7 @@ public class SecurityConfig {
                                 "/v3/api-docs/**",
                                 "/v3/api-docs",
                                 "/v1/api-docs/**",
-                                "/v1/api-docs",
-                                "/error"
+                                "/v1/api-docs"
                         ).permitAll()
                         .anyRequest().authenticated()
                 )
